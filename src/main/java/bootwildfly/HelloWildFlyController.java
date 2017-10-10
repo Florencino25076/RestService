@@ -25,7 +25,7 @@ public class HelloWildFlyController {
 
     @RequestMapping("hello")
     public String sayHello(){
-        return ("Hello, SpringBoot on Wildfly");
+        return ("Hello, world");
     }
 
     @RequestMapping(value = "/greeting", method = RequestMethod.POST, headers={"Content-type=application/json"})
